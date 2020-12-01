@@ -24,7 +24,7 @@ services:
       - ./docker/mysql/conf.d:/etc/mysql/conf.d
     environment:
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes
-      - MYSQL_DATABASE=php-conlaravel
+      - MYSQL_DATABASE=php-con-laravel
       - TZ=Asia/Tokyo
     ports:
       - 10306:3306
